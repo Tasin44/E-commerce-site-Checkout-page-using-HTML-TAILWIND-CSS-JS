@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.anchor-bg{
+  background-image: linear-gradient(to bottom right, #93c5fd, #3b82f6);
+}
+
+.font-style {
+  display: block; /* Equivalent to 'block' in Tailwind */
+  margin-bottom: 0.5rem; /* Equivalent to 'mb-2' in Tailwind */
+  font-size: 0.875rem; /* Equivalent to 'text-sm' in Tailwind */
+  color: #111827; /* Equivalent to 'text-gray-900' in Tailwind */
+  font-weight: 500; /* Equivalent to 'font-medium' in Tailwind */
+}
+
+* {
+  font-family: "Oswald", serif;
+  font-weight: 400;
+}
